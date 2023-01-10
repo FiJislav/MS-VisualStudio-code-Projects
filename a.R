@@ -8,8 +8,6 @@ library("grid")
 library("heatmaply") 
 library("ggdendro") 
 library(gridExtra) 
-library(viridis) 
-library(svglite) 
 
 
 
