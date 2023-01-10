@@ -11,3 +11,5 @@ result = requests.get(fullURL)
 with open('./Uniprot_input/uniprot_{}.xlsx'.format(datetime.datetime.now().strftime("%Y-%m-%d_%H_%M_%S")), 'wb') as f:
     f.write(result.content) # write content of result to file
     f.close() # close file
+
+    
